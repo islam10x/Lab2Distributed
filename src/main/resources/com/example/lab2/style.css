@@ -1,0 +1,176 @@
+/* Client game interface */
+
+.section-title {
+    -fx-text-fill: #9CA3AF;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.game-title {
+    -fx-text-fill: #F9FAFB;
+    -fx-font-size: 23px;
+    -fx-font-weight: bold;
+}
+
+.game-card {
+    -fx-background-color: #1F2937;
+    -fx-background-radius: 18px;
+    -fx-border-color: #4338CA;
+    -fx-border-radius: 18px;
+    -fx-padding: 28px;
+}
+
+.guess-input {
+    -fx-background-color: #111827;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #6B7280;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12px;
+    -fx-border-color: #4F46E5;
+    -fx-border-radius: 12px;
+    -fx-padding: 14px;
+}
+
+.feedback {
+    -fx-text-fill: #A5B4FC;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.attempts-number {
+    -fx-text-fill: #818CF8;
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+}
+/* Main background */
+.root {
+    -fx-background-color: #111827;
+    -fx-font-family: "Segoe UI";
+}
+
+/* Header */
+.title {
+    -fx-text-fill: #F9FAFB;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+}
+
+.subtitle {
+    -fx-text-fill: #818CF8;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+/* Cards */
+.card {
+    -fx-background-color: #1F2937;
+    -fx-background-radius: 14px;
+    -fx-padding: 18px;
+    -fx-border-color: #374151;
+    -fx-border-radius: 14px;
+}
+
+/* Card headings */
+.card .label {
+    -fx-text-fill: #D1D5DB;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+/* Status */
+.status-running {
+    -fx-text-fill: #34D399;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.status-stopped {
+    -fx-text-fill: #F87171;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+/* Player counter */
+.number {
+    -fx-text-fill: #A5B4FC;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+
+/* Input */
+.input {
+    -fx-background-color: #374151;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #9CA3AF;
+    -fx-background-radius: 8px;
+    -fx-border-color: #4B5563;
+    -fx-border-radius: 8px;
+    -fx-padding: 9px;
+}
+
+/* Buttons */
+.primary-button {
+    -fx-background-color: #6366F1;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 11px 20px;
+    -fx-cursor: hand;
+}
+
+.primary-button:hover {
+    -fx-background-color: #4F46E5;
+}
+
+.danger-button {
+    -fx-background-color: #DC2626;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 11px 20px;
+    -fx-cursor: hand;
+}
+
+.danger-button:hover {
+    -fx-background-color: #B91C1C;
+}
+
+.button:disabled {
+    -fx-opacity: 0.45;
+}
+
+/* Player list */
+.list-view {
+    -fx-background-color: #111827;
+    -fx-background-radius: 8px;
+    -fx-border-color: #374151;
+    -fx-border-radius: 8px;
+}
+
+.list-cell {
+    -fx-background-color: #111827;
+    -fx-text-fill: #E5E7EB;
+    -fx-padding: 10px;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: #3730A3;
+}
+
+/* Logs */
+.text-area {
+    -fx-control-inner-background: #111827;
+    -fx-text-fill: #D1D5DB;
+    -fx-background-radius: 8px;
+    -fx-border-color: #374151;
+    -fx-border-radius: 8px;
+}
+
+.text-area .content {
+    -fx-background-color: #111827;
+}
+
+.separator .line {
+    -fx-border-color: #374151;
+}
